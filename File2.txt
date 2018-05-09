@@ -1,6 +1,8 @@
 git status
-
 Add Line 3
+
+Add my Temp/Repo
+==> add by temp-local must be line #4
 
 Add my Temp/Repo
 
