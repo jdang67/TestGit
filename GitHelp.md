@@ -35,3 +35,12 @@ git branch -d feature/login
 
 2. delete remote branch
  git push origin --delete feature/login
+
+ ## Rebase
+
+ Rabase means to change the base of current branch to new position
+git checkout branchA
+git rebase master
+
+==> means now the base of branchA from master.
+if no other commit in master, merging from BranchA to master is fast forward.
