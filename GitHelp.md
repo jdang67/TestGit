@@ -27,3 +27,11 @@ git reset --hard 99759c7a33ad35518c1f46cb74f558134278a70a
 
 after reset local, you need to  force to push this changes to remote 
 gut push origin -f 
+
+
+## Delete a branch
+1. Delete local branch
+git branch -d feature/login
+
+2. delete remote branch
+ git push origin --delete feature/login
