@@ -44,5 +44,3 @@ git rebase master
 
 ==> means now the base of branchA from master.
 if no other commit in master, merging from BranchA to master is fast forward.
-
-Add A
